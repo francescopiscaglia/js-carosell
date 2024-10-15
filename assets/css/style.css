@@ -1,0 +1,71 @@
+/* #region common */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    max-width: 100%;
+    box-shadow: 0px 0 10px #000000;
+}
+/* #endregion common */
+
+/* #region utilities */
+
+
+/* #endregion utilities */
+
+
+/* Header */
+#app-header{
+    text-align: center;
+    padding-top: 3rem;
+    color: red;
+    margin-bottom: 2rem;
+}
+
+
+/* Main */
+#app-main{
+
+    .container{
+        width: 60%;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+
+    .d-flex{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .current-slide{
+        box-shadow: 1px black;
+        position: relative;
+
+        .description{
+            position: absolute;
+            bottom: 1rem;
+            right: .5rem;
+            color: white;
+            font-size: .75rem;
+        }
+    }
+
+    .thumbnail{
+
+        img:hover {
+            box-shadow: none;
+        }
+    }
+
+    i:hover {
+        transform: scale(1.4);
+    }
+}
